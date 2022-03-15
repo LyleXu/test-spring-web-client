@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://config-server-00001-private
+  application:
+    name: test-web-client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-server-00001-private/eureka
